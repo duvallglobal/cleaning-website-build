@@ -1,6 +1,6 @@
 # Project Status — Rainwater & Shine Cleaning Co.
 
-**Domain:** rainwatershine.com
+
 **Stack:** Next.js 16 (App Router), Tailwind CSS v4, shadcn/ui, Supabase, Make.com
 **Vercel:** https://rainwater-shine-cleaning-met0xuif6.vercel.app
 **Last Updated:** 2026-07-05
