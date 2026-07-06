@@ -16,7 +16,12 @@
 | `/services/residential/[slug]` | Service detail (5 types) | ✅ Live |
 | `/services/commercial` | Commercial listing | ✅ Live |
 | `/locations` | All locations index | ✅ Live |
-| `/locations/[city]` | City pages (6 cities) | ✅ Live |
+| `/locations/west-point-ga` | West Point, GA | ✅ Live |
+| `/locations/lagrange-ga` | LaGrange, GA | ✅ Live |
+| `/locations/franklin-ga` | Franklin, GA | ✅ Live |
+| `/locations/columbus-ga` | Columbus, GA | ✅ Live |
+| `/locations/opelika-al` | Opelika, AL | ✅ Live |
+| `/locations/auburn-al` | Auburn, AL | ✅ Live |
 | `/contact` | Contact form | ✅ Live |
 | `/quote/residential` | Quote form (noindex) | ✅ Live |
 | `/book` | Booking form (noindex) | ✅ Live |
@@ -73,7 +78,6 @@
 | `/terms` | 🔴 High | Required for booking/quote service |
 | `/about` | 🟡 Medium | Trust signal for local service business |
 | `/faq` | 🟡 Medium | FAQPage schema opportunity, captures "cost in [city]" searches |
-| `/blog/` + `/blog/[slug]` | 🟡 Medium | Build topical authority for E-E-A-T |
 | `/services/commercial/[slug]` | 🟢 Low | Only if commercial has distinct service types |
 | City-service combo pages | 🟢 Low | e.g. `/services/residential/deep-cleaning/west-point-ga` |
 
@@ -81,7 +85,6 @@
 
 | Task | Notes |
 |------|-------|
-| City-specific blog content | 10+ posts targeting local keywords |
 | Review generation pipeline | Post-cleaning SMS/email → Google Reviews |
 | Local citations | Yelp, Bing Places, Chamber of Commerce |
 | Google Maps embed | On city pages |

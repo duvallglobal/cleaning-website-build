@@ -8,7 +8,9 @@ __v0_jsx-dev-runtime.ts
 
 # Environment variables
 .env*.local
-
+.env.production.pull
+.env.development.local
+.env.vercel
 # Common ignores
 node_modules
 .next/
