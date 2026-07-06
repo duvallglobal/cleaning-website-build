@@ -14,6 +14,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${BASE}/contact`, lastModified: LAST_MOD, changeFrequency: 'monthly' as const, priority: 0.7 },
         { url: `${BASE}/privacy`, lastModified: LAST_MOD, changeFrequency: 'yearly' as const, priority: 0.3 },
         { url: `${BASE}/terms`, lastModified: LAST_MOD, changeFrequency: 'yearly' as const, priority: 0.3 },
+  ]
+
+  const services = RESIDENTIAL_SERVICES.map(s => ({
+    url: `${BASE}/services/residential/${s.slug}`,
     lastModified: LAST_MOD,
     changeFrequency: 'monthly' as const,
     priority: 0.8,
