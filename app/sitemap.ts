@@ -9,11 +9,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE, lastModified: LAST_MOD, changeFrequency: 'weekly' as const, priority: 1 },
     { url: `${BASE}/services/residential`, lastModified: LAST_MOD, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${BASE}/services/commercial`, lastModified: LAST_MOD, changeFrequency: 'monthly' as const, priority: 0.9 },
-    { url: `${BASE}/contact`, lastModified: LAST_MOD, changeFrequency: 'monthly' as const, priority: 0.7 },
-  ]
-
-  const services = RESIDENTIAL_SERVICES.map(s => ({
-    url: `${BASE}/services/residential/${s.slug}`,
+        { url: `${BASE}/about`, lastModified: LAST_MOD, changeFrequency: 'monthly' as const, priority: 0.7 },
+        { url: `${BASE}/faq`, lastModified: LAST_MOD, changeFrequency: 'monthly' as const, priority: 0.7 },
+        { url: `${BASE}/contact`, lastModified: LAST_MOD, changeFrequency: 'monthly' as const, priority: 0.7 },
+        { url: `${BASE}/privacy`, lastModified: LAST_MOD, changeFrequency: 'yearly' as const, priority: 0.3 },
+        { url: `${BASE}/terms`, lastModified: LAST_MOD, changeFrequency: 'yearly' as const, priority: 0.3 },
     lastModified: LAST_MOD,
     changeFrequency: 'monthly' as const,
     priority: 0.8,

@@ -10,12 +10,12 @@ const NAV = [
   { label: 'Residential', href: '/services/residential' },
   { label: 'Commercial', href: '/services/commercial' },
   { label: 'Locations', href: '/locations' },
+  { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ]
 
 export function Header() {
   const [open, setOpen] = useState(false)
-
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/60">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

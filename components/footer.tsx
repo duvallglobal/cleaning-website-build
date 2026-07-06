@@ -81,9 +81,17 @@ export function Footer() {
         </div>
 
         <div className="border-t border-ink-foreground/10 mt-12 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-xs text-ink-foreground/40">
-            &copy; 2026 {SITE_NAME} All rights reserved.
-          </p>
+          <div className="flex flex-col sm:flex-row items-center gap-3">
+            <p className="text-xs text-ink-foreground/40">
+              &copy; 2026 {SITE_NAME} All rights reserved.
+            </p>
+            <nav aria-label="Legal links" className="flex items-center gap-4">
+              <Link href="/about" className="text-xs text-ink-foreground/40 hover:text-ink-foreground transition-colors">About</Link>
+              <Link href="/faq" className="text-xs text-ink-foreground/40 hover:text-ink-foreground transition-colors">FAQ</Link>
+              <Link href="/privacy" className="text-xs text-ink-foreground/40 hover:text-ink-foreground transition-colors">Privacy</Link>
+              <Link href="/terms" className="text-xs text-ink-foreground/40 hover:text-ink-foreground transition-colors">Terms</Link>
+            </nav>
+          </div>
           <p className="text-xs text-ink-foreground/40">
             Proudly serving West GA &amp; East AL
           </p>
